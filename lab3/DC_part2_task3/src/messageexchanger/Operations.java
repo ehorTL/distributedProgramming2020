@@ -1,0 +1,16 @@
+package messageexchanger;
+
+public enum Operations {
+    CREATE_CITY,
+    CREATE_COUNTRY,
+    READ_CITY,
+    READ_COUNTRY,
+    READ_ALL_CITIES,
+    READ_ALL_COUNTRIES,
+//    READ_ALL_CITIES_BY_COUNTRY,
+    UPDATE_CITY,
+    UPDATE_COUNTRY,
+    DELETE_CITY,
+    DELETE_COUNTRY
+}
+

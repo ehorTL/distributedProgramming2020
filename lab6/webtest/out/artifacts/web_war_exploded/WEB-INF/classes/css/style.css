@@ -1,0 +1,31 @@
+.cust-header {
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    height: 40px;
+    min-width: 200px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+html{
+    background-color: bisque;
+}
+
+.cust-form{
+    display: block;
+    margin: 20px;
+}
+
+.cust-menu{
+    text-align: center;
+}
+
+.cust-country{
+
+}

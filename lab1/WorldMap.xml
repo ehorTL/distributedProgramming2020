@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worldMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="WorldMap.xsd">
+    <country  countryName="Ukraine" countryCode="cc001" countryId="1">
+        <city cityName="Kiev" cityCode="ctc001" cityId="1" isCapital="1" population="30000000"/>
+        <city cityName="Fastiv" cityCode="ctc002" cityId="2" isCapital="0" population="50000"/>
+        <city cityName="Dnipro" cityCode="ctc003" cityId="3" isCapital="0" population="2000000"/>
+    </country>
+    <country  countryName="Russia" countryCode="code001" countryId="2">
+        <city cityName="Moskow" cityCode="ctc004" cityId="4" isCapital="1" population="3700000"/>
+        <city cityName="Vladivostok" cityCode="ctc005" cityId="5" isCapital="0" population="450000"/>
+        <city cityName="Voronezh" cityCode="ctc006" cityId="6" isCapital="0" population="259000"/>
+    </country>
+    <country  countryName="USA" countryCode="code112001" countryId="3">
+        <city cityName="New-York" cityCode="ctc007" cityId="7" isCapital="1" population="4500000"/>
+        <city cityName="Washington" cityCode="ctc008" cityId="8" isCapital="0" population="1500000"/>
+        <city cityName="Mayami" cityCode="ctc009" cityId="9" isCapital="0" population="940000"/>
+    </country>
+</worldMap>

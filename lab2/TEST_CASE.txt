@@ -1,0 +1,12 @@
+#USE sequentially checking the result
+TEST CASE:
+
+1. CountryAdapter.addCountry(connection, new Country("code4", "LandaoLand", 666));
+2. CityAdapter.addCity(connection, "code4", new City("Landao City", "lndst1", 222, 333, true));
+3. CityAdapter.updateCity(connection, "code4", "lndst1", new City("Landao City Updated", "lndst1", 444, 555, false));
+4. CountryAdapter.updateCountry(connection, "code4", new Country("code4", "Landao Land Updated", 777));
+5. CityAdapter.deleteCity(connection, "code4", "lndst1");
+
+6. CityAdapter.addCity(connection, "code4", new City("Landao City 2", "lndst2", 222, 999, false));
+	CountryAdapter.deleteCountry(connection, "code4");
+
